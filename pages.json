@@ -1,0 +1,159 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "飞享 - 无人机服务平台"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录/注册"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "飞享首页"
+			}
+		},
+		{
+			"path": "pages/demand/demand",
+			"style": {
+				"navigationBarTitleText": "需求发布"
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务采购"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区交流"
+			}
+		},
+		{
+			"path": "pages/community/myPosts",
+			"style": {
+				"navigationBarTitleText": "我发布的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/messages",
+			"style": {
+				"navigationBarTitleText": "通知与消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/events",
+			"style": {
+				"navigationBarTitleText": "赛事信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/eventDetail",
+			"style": {
+				"navigationBarTitleText": "赛事详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/eventRegister",
+			"style": {
+				"navigationBarTitleText": "赛事报名",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/createPost",
+			"style": {
+				"navigationBarTitleText": "发布内容",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/askQuestion",
+			"style": {
+				"navigationBarTitleText": "提问问题",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/chat",
+			"style": {
+				"navigationBarTitleText": "私信聊天",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/demand/publish",
+			"style": {
+				"navigationBarTitleText": "发布需求"
+			}
+		},
+		{
+			"path": "pages/demand/detail",
+			"style": {
+				"navigationBarTitleText": "需求详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "飞享",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/images/tabbar/location.png",
+				"selectedIconPath": "static/images/tabbar/location.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/demand/demand",
+				"iconPath": "static/images/tabbar/smile.png",
+				"selectedIconPath": "static/images/tabbar/smile.png",
+				"text": "需求"
+			},
+			{
+				"pagePath": "pages/service/service",
+				"iconPath": "static/images/tabbar/briefcase.png",
+				"selectedIconPath": "static/images/tabbar/briefcase.png",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"iconPath": "static/images/tabbar/chat.png",
+				"selectedIconPath": "static/images/tabbar/chat.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/tabbar/store.png",
+				"selectedIconPath": "static/images/tabbar/store.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
